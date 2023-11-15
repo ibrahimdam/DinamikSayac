@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+}
+
+.timer-container {
+    text-align: center;
+}
+
+.time-display {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.controls button {
+    font-size: 1rem;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.input-container {
+    margin-top: 20px;
+}
+
+label {
+    margin-right: 10px;
+}
+
+input {
+    padding: 5px;
+    font-size: 1rem;
+}
